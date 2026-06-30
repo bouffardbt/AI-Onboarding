@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BU Intelligence Artificielle — Onboarding Wavestone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner container">
+      <div class="nav-logo">
+        <span class="logo-w">W</span><span class="logo-name">avestone</span>
+        <span class="logo-sep">|</span>
+        <span class="logo-bu">BU Intelligence Artificielle</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#presentation">La BU IA</a></li>
+        <li><a href="#sujets">Sujets</a></li>
+        <li><a href="#outils">Outils &amp; Process</a></li>
+        <li><a href="#equipe">Équipe</a></li>
+        <li><a href="#contacts" class="btn-nav">Nous rejoindre</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="accueil">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">Bienvenue dans la BU IA</div>
+      <h1 class="hero-title">Façonnons ensemble<br /><span class="highlight">l'intelligence de demain</span></h1>
+      <p class="hero-sub">La Business Unit Intelligence Artificielle de Wavestone accompagne ses clients dans la définition, la mise en œuvre et la gouvernance de leurs stratégies IA — de l'idéation à l'industrialisation.</p>
+      <div class="hero-cta">
+        <a href="#presentation" class="btn btn-primary">Découvrir la BU</a>
+        <a href="#outils" class="btn btn-outline">Outils &amp; Process</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Défiler</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- CHIFFRES CLÉS -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">120<span class="stat-plus">+</span></span>
+        <span class="stat-label">Consultants IA</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">40<span class="stat-plus">+</span></span>
+        <span class="stat-label">Clients actifs</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">15<span class="stat-plus">+</span></span>
+        <span class="stat-label">Secteurs couverts</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">200<span class="stat-plus">+</span></span>
+        <span class="stat-label">Projets livrés</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRÉSENTATION BU -->
+  <section class="section" id="presentation">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Qui sommes-nous</div>
+        <h2 class="section-title">La BU Intelligence Artificielle</h2>
+        <p class="section-desc">Notre mission : transformer la data et l'IA en leviers de performance durables pour nos clients.</p>
+      </div>
+      <div class="bu-grid">
+        <div class="bu-card card-orange">
+          <div class="bu-card-icon">🎯</div>
+          <h3>Notre mission</h3>
+          <p>Accompagner les organisations dans leur transformation IA : stratégie, gouvernance, conception de solutions et montée en compétences des équipes.</p>
+        </div>
+        <div class="bu-card">
+          <div class="bu-card-icon">🔬</div>
+          <h3>Notre approche</h3>
+          <p>Nous conjuguons expertise métier sectorielle et excellence technique pour concevoir des solutions IA responsables, explicables et industrialisables.</p>
+        </div>
+        <div class="bu-card">
+          <div class="bu-card-icon">🤝</div>
+          <h3>Notre positionnement</h3>
+          <p>Conseil indépendant : nous travaillons avec les meilleurs outils du marché (Azure OpenAI, AWS, GCP, Mistral…) sans engagement d'éditeur.</p>
+        </div>
+        <div class="bu-card">
+          <div class="bu-card-icon">🌍</div>
+          <h3>Notre empreinte</h3>
+          <p>Présents à Paris, Londres, Bruxelles et Luxembourg, nous intervenons sur des projets européens et internationaux à fort impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUJETS TRAITÉS -->
+  <section class="section section-dark" id="sujets">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag light">Expertises</div>
+        <h2 class="section-title light">Sujets traités par la BU</h2>
+        <p class="section-desc light">De la stratégie IA à l'industrialisation des modèles, voici les domaines dans lesquels nous excellons.</p>
+      </div>
+      <div class="topics-grid">
+
+        <div class="topic-card">
+          <div class="topic-icon">🤖</div>
+          <h3>IA Générative &amp; LLM</h3>
+          <p>Conception de solutions Gen AI (RAG, agents, fine-tuning), intégration de LLM en production, gouvernance et évaluation des modèles.</p>
+          <div class="topic-tags">
+            <span>GPT-4o</span><span>Mistral</span><span>LangChain</span><span>RAG</span>
+          </div>
+        </div>
+
+        <div class="topic-card">
+          <div class="topic-icon">📊</div>
+          <h3>Data &amp; Analytics</h3>
+          <p>Architecture data moderne (Lakehouse, DataMesh), pipelines ML, tableaux de bord décisionnels et analytique avancée.</p>
+          <div class="topic-tags">
+            <span>Databricks</span><span>dbt</span><span>Power BI</span><span>Snowflake</span>
+          </div>
+        </div>
+
+        <div class="topic-card">
+          <div class="topic-icon">⚙️</div>
+          <h3>MLOps &amp; Industrialisation</h3>
+          <p>Mise en production des modèles ML/IA, CI/CD pour l'IA, monitoring en production, gouvernance des artefacts.</p>
+          <div class="topic-tags">
+            <span>MLflow</span><span>Kubeflow</span><span>Docker</span><span>Azure ML</span>
+          </div>
+        </div>
+
+        <div class="topic-card">
+          <div class="topic-icon">🛡️</div>
+          <h3>IA Responsable &amp; Gouvernance</h3>
+          <p>Conformité AI Act, éthique IA, explicabilité des modèles (XAI), cadres de gouvernance et programmes de montée en compétences.</p>
+          <div class="topic-tags">
+            <span>AI Act</span><span>XAI</span><span>RGPD</span><span>Bias Audit</span>
+          </div>
+        </div>
+
+        <div class="topic-card">
+          <div class="topic-icon">🧠</div>
+          <h3>Computer Vision &amp; NLP</h3>
+          <p>Traitement d'images, détection d'objets, traitement du langage naturel, classification et extraction d'information.</p>
+          <div class="topic-tags">
+            <span>OCR</span><span>YOLO</span><span>Transformers</span><span>spaCy</span>
+          </div>
+        </div>
+
+        <div class="topic-card">
+          <div class="topic-icon">🚀</div>
+          <h3>Stratégie &amp; Transformation IA</h3>
+          <p>Diagnostic de maturité IA, feuille de route stratégique, identification des cas d'usage à valeur, conduite du changement.</p>
+          <div class="topic-tags">
+            <span>Roadmap</span><span>Use Cases</span><span>Change Mgmt</span><span>ROI</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OUTILS & PROCESS -->
+  <section class="section" id="outils">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Outils &amp; Process</div>
+        <h2 class="section-title">Votre environnement de travail</h2>
+        <p class="section-desc">Trois plateformes structurent notre quotidien opérationnel. Voici comment les utiliser et à quels processus elles se rattachent.</p>
+      </div>
+
+      <!-- WAVEKEEPER -->
+      <div class="tool-block" id="wavekeeper">
+        <div class="tool-header">
+          <div class="tool-logo wk-logo">
+            <span class="tool-logo-letter">W</span>
+          </div>
+          <div class="tool-header-text">
+            <h3 class="tool-name">Wavekeeper</h3>
+            <p class="tool-tagline">Le hub interne Wavestone — knowledge, projets &amp; communautés</p>
+          </div>
+          <div class="tool-badge">Interne</div>
+        </div>
+        <div class="tool-body">
+          <div class="tool-desc">
+            <p>Wavekeeper est la plateforme collaborative interne de Wavestone. Elle centralise la base de connaissances de la firme, les retours d'expérience projets, les assets méthodologiques et les communautés de practice.</p>
+          </div>
+          <div class="process-grid">
+            <div class="process-item">
+              <div class="process-step">01</div>
+              <div class="process-content">
+                <h4>Accès &amp; compte</h4>
+                <p>Votre compte Wavekeeper est créé automatiquement à votre arrivée. Connectez-vous avec vos identifiants Wavestone (SSO Microsoft).</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-step">02</div>
+              <div class="process-content">
+                <h4>Explorer la base de connaissances</h4>
+                <p>Recherchez les decks, modèles, benchmarks et études de la BU IA. Utilisez les filtres par secteur, sujet et date.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-step">03</div>
+              <div class="process-content">
+                <h4>Rejoindre les communautés</h4>
+                <p>Abonnez-vous aux communautés IA (Gen AI, MLOps, Data Engineering…) pour accéder aux newsletters et événements internes.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-step">04</div>
+              <div class="process-content">
+                <h4>Contribuer</h4>
+                <p>Après chaque mission, déposez vos livrables anonymisés pour enrichir la base collective. Cela valorise votre expertise et aide vos collègues.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SALESFORCE -->
+      <div class="tool-block" id="salesforce">
+        <div class="tool-header">
+          <div class="tool-logo sf-logo">
+            <span class="tool-logo-letter">SF</span>
+          </div>
+          <div class="tool-header-text">
+            <h3 class="tool-name">Salesforce</h3>
+            <p class="tool-tagline">CRM &amp; pipeline commercial — suivi des opportunités et des clients</p>
+          </div>
+          <div class="tool-badge blue">CRM</div>
+        </div>
+        <div class="tool-body">
+          <div class="tool-desc">
+            <p>Salesforce est notre CRM (Customer Relationship Management). Il centralise toute la relation client : suivi des comptes, des opportunités commerciales, des propositions envoyées et de l'historique d'interactions.</p>
+          </div>
+          <div class="process-grid">
+            <div class="process-item">
+              <div class="process-step">01</div>
+              <div class="process-content">
+                <h4>Accès &amp; onboarding CRM</h4>
+                <p>Votre responsable commercial vous accordera les accès Salesforce. Suivez le module de formation e-learning disponible sur Wavekeeper.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-step">02</div>
+              <div class="process-content">
+                <h4>Suivi des missions en cours</h4>
+                <p>Chaque mission est tracée sous forme d'opportunité ou de compte. Consultez régulièrement la fiche client pour connaître l'historique.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-step">03</div>
+              <div class="process-content">
+                <h4>Remontée des leads</h4>
+                <p>Identifiez un besoin client ? Créez une opportunité dans Salesforce avec le bon interlocuteur et prévenez votre manager BU.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-step">04</div>
+              <div class="process-content">
+                <h4>Reporting &amp; tableaux de bord</h4>
+                <p>Les tableaux de bord Salesforce synthétisent l'activité commerciale de la BU (pipeline, taux de conversion, CA prévisionnel).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WORKDAY -->
+      <div class="tool-block" id="workday">
+        <div class="tool-header">
+          <div class="tool-logo wd-logo">
+            <span class="tool-logo-letter">WD</span>
+          </div>
+          <div class="tool-header-text">
+            <h3 class="tool-name">Workday</h3>
+            <p class="tool-tagline">SIRH — RH, temps de travail, notes de frais &amp; formation</p>
+          </div>
+          <div class="tool-badge green">RH</div>
+        </div>
+        <div class="tool-body">
+          <div class="tool-desc">
+            <p>Workday est notre Système d'Information RH (SIRH). C'est l'outil de référence pour tout ce qui touche à votre vie en tant que collaborateur : saisie des temps, congés, notes de frais, entretiens et plan de formation.</p>
+          </div>
+          <div class="process-grid">
+            <div class="process-item">
+              <div class="process-step">01</div>
+              <div class="process-content">
+                <h4>Saisie des temps (hebdomadaire)</h4>
+                <p>Déclarez vos heures chaque semaine sur les codes d'activité correspondant à vos missions. La validation est faite par votre manager avant le lundi suivant.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-step">02</div>
+              <div class="process-content">
+                <h4>Congés &amp; absences</h4>
+                <p>Soumettez vos demandes de congés depuis l'onglet "Absences". Anticipez au moins 2 semaines à l'avance et vérifiez les validations en attente.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-step">03</div>
+              <div class="process-content">
+                <h4>Notes de frais</h4>
+                <p>Soumettez vos notes de frais dans les 30 jours suivant la dépense. Joignez systématiquement les justificatifs scannés. Politique de remboursement disponible sur l'intranet.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-step">04</div>
+              <div class="process-content">
+                <h4>Formation &amp; développement</h4>
+                <p>Accédez à votre plan de développement, suivez vos formations obligatoires (RGPD, sécurité…) et candidatez aux programmes de certification IA.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ÉQUIPE -->
+  <section class="section section-light" id="equipe">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">L'équipe</div>
+        <h2 class="section-title">Les référents de la BU IA</h2>
+        <p class="section-desc">Vos interlocuteurs clés pour démarrer votre aventure dans la BU.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-circle orange">BU</div>
+          </div>
+          <div class="team-info">
+            <h4>Directeur de la BU IA</h4>
+            <p class="team-role">Pilotage stratégique, développement commercial et orientation de l'offre</p>
+            <span class="team-contact">→ Pour questions d'orientation</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-circle dark">RH</div>
+          </div>
+          <div class="team-info">
+            <h4>HR Business Partner IA</h4>
+            <p class="team-role">Suivi RH, mobilités, entretiens annuels, bien-être et développement des compétences</p>
+            <span class="team-contact">→ Pour questions RH &amp; carrière</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-circle blue">CM</div>
+          </div>
+          <div class="team-info">
+            <h4>Coach &amp; Mentor</h4>
+            <p class="team-role">Accompagnement personnalisé pendant vos 3 premiers mois : intégration, montée en compétences et réseau</p>
+            <span class="team-contact">→ Votre premier point de contact</span>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <div class="avatar-circle green">OPS</div>
+          </div>
+          <div class="team-info">
+            <h4>Ops &amp; Knowledge Manager</h4>
+            <p class="team-role">Support opérationnel, accès aux outils, contribution à la base de connaissances et animation communautaire</p>
+            <span class="team-contact">→ Pour questions outils &amp; process</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHECKLIST ONBOARDING -->
+  <section class="section section-dark" id="checklist">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag light">Premiers pas</div>
+        <h2 class="section-title light">Votre checklist J1 → J30</h2>
+        <p class="section-desc light">Les étapes clés pour réussir votre intégration dans la BU IA.</p>
+      </div>
+      <div class="checklist-cols">
+        <div class="checklist-col">
+          <div class="checklist-period">
+            <span class="period-badge">Jour 1</span>
+          </div>
+          <ul class="checklist">
+            <li class="check-item done">
+              <span class="check-icon">✓</span>
+              <span>Récupérer votre matériel (laptop, badge, accès)</span>
+            </li>
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Créer votre compte Microsoft 365 (SSO)</span>
+            </li>
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Rencontrer votre mentor et votre manager</span>
+            </li>
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Rejoindre les canaux Teams de la BU IA</span>
+            </li>
+          </ul>
+        </div>
+        <div class="checklist-col">
+          <div class="checklist-period">
+            <span class="period-badge orange">Semaine 1</span>
+          </div>
+          <ul class="checklist">
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Se connecter à <strong>Wavekeeper</strong> et rejoindre les communautés IA</span>
+            </li>
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Configurer <strong>Workday</strong> et saisir votre première feuille de temps</span>
+            </li>
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Formation e-learning sécurité &amp; RGPD (obligatoire)</span>
+            </li>
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Rencontrer 3 collègues de la BU (café virtuel ou présentiel)</span>
+            </li>
+          </ul>
+        </div>
+        <div class="checklist-col">
+          <div class="checklist-period">
+            <span class="period-badge blue">Mois 1</span>
+          </div>
+          <ul class="checklist">
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Accès <strong>Salesforce</strong> et revue du portefeuille clients avec votre manager</span>
+            </li>
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Première contribution Wavekeeper (upload d'un livrable)</span>
+            </li>
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Entretien de suivi d'intégration (J30) avec votre RH BP</span>
+            </li>
+            <li class="check-item">
+              <span class="check-icon">○</span>
+              <span>Définir votre plan de formation &amp; certification IA dans Workday</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="section" id="contacts">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Contact</div>
+        <h2 class="section-title">Prêt à démarrer ?</h2>
+        <p class="section-desc">Pour toute question sur votre intégration, n'hésitez pas à contacter l'équipe BU IA.</p>
+      </div>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="contact-icon">📧</div>
+          <h4>Email BU IA</h4>
+          <p>bu-ia@wavestone.com</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">💬</div>
+          <h4>Teams</h4>
+          <p>Canal « BU IA — Général » sur Microsoft Teams</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">🌐</div>
+          <h4>Wavekeeper</h4>
+          <p>Espace BU IA sur Wavekeeper (intranet Wavestone)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-w">W</span><span class="logo-name">avestone</span>
+        <span class="footer-sep">·</span>
+        <span>BU Intelligence Artificielle</span>
+      </div>
+      <p class="footer-legal">© 2024 Wavestone. Document interne — usage réservé aux collaborateurs Wavestone.</p>
+      <div class="footer-links">
+        <a href="#presentation">La BU</a>
+        <a href="#sujets">Sujets</a>
+        <a href="#outils">Outils</a>
+        <a href="#checklist">Checklist</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
